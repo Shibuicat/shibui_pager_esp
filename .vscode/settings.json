@@ -2,7 +2,7 @@
   "idf.pythonInstallPath": "/home/fedora/.espressif/python_env/idf6.0_py3.13_env/bin/python",
   "idf.espIdfPath": "/home/fedora/esp/esp-idf",
   "idf.openOcdConfigs": ["board/esp32c6-builtin.cfg"],
-  "idf.port": "/dev/ttyACM1",
+  "idf.port": "/dev/ttyACM0",
   "idf.toolsPath": "/home/fedora/.espressif",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32c6"
@@ -13,7 +13,7 @@
     "--query-driver=/home/fedora/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-gcc",
     "--compile-commands-dir=/home/fedora/Desktop/iot/shibui_pager/build"
   ],
-  "idf.monitorPort": "/dev/ttyACM1",
+  "idf.monitorPort": "/dev/ttyACM0",
   "files.associations": {
     "esp_lcd_panel_st7789.h": "c"
   },
